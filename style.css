@@ -1,0 +1,22 @@
+.box {
+  background-color: white;
+  border: 1px solid black;
+  float: left;
+  width: auto;
+  height: auto;
+  /*flex: 1;*/
+}
+
+.endBox {
+  background-color: white;
+  border: 1px solid black;
+  clear: right;
+}
+
+.container {
+  /*display: -ms-flex; display: -webkit-flex; display: flex;*/
+  width: 2500px;
+  max-width: 2500px;
+  height: 2500px;
+  max-height: 2500px;
+}
