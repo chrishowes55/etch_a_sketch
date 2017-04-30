@@ -43,9 +43,18 @@ table {
     border-spacing: 0;
 }
 /*EVERYTHING ELSE*/
-.box {
+td {
   background-color: white;
   border: 1px solid black;
   margin: 0px;
-  padding: 15px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+
+table {
+  min-width: 500px;
+  max-width: 500px;
+  min-height: 500px;
+  max-height: 500px;
+  border-collapse: collapse;
 }
