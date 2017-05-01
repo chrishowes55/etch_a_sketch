@@ -1,10 +1,10 @@
 $(document).ready(function() {
   for(var i = 0; i < 16; i++) {
-    $('table').append('<tr>');
+    let tr = $('<tr />')
     for(var j = 0; j < 16; j++) {
-      $('table').append("<td class='box'></td>");
+      tr.append($('<td />'));
     }
-    $("table").append("</tr>");
+    $("table").append(tr);
   }
   $('td').hover(function() {
     $(this).css("background-color", "black");
